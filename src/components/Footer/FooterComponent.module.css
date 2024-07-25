@@ -1,0 +1,24 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.footer:hover {
+    background-color: #495057;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.copyright {
+    font-size: 1em;
+    font-weight: bold;
+    color: #adb5bd;
+    transition: color 0.3s ease-in-out;
+}
+
+.copyright:hover {
+    color: #dee2e6;
+}

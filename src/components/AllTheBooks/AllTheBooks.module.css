@@ -1,0 +1,16 @@
+.allTheBooksContainer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.allTheBooksContainer:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.row-gap-3 {
+    row-gap: 20px;
+}
